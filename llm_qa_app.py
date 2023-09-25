@@ -113,7 +113,7 @@ def ask_with_memory(vector_store, question, chat_history=[]):
 
 # Main function
 def main():
-    data = load_document('files/us_constitution.pdf')
+    data = load_document('files/planting.pdf')
 
     if data is None:
         return
@@ -158,19 +158,19 @@ if __name__ == "__main__":
 #
 # data = load_from_wikipedia('ChatGPT', 'tr')
 # chunks = chunk_data(data)
-# index_name = 'chatgpt'
+# index_name = 'Mercedes-Benz'
 # vector_store = insert_or_fetch_embeddings(index_name)
 
 
 # Asking With Memory:
 
 # chat_history = []
-# question = 'How many amendments are in the U.S. Constitution?'
+# question = 'How many stages does the planting design consist of?'
 # result, chat_history = ask_with_memory(vector_store, question, chat_history)
 # print(result['answer'])
 # print(chat_history)
 #
-# question = 'Multiply that number by 2'
+# question = 'What are they?'
 # result, chat_history = ask_with_memory(vector_store, question, chat_history)
 # print(result['answer'])
 # print(chat_history)
