@@ -113,7 +113,7 @@ def ask_with_memory(vector_store, question, chat_history=[]):
 
 # Main function
 def main():
-    data = load_document('files/planting.pdf')
+    data = load_document('files/ai_article.pdf')
 
     if data is None:
         return
@@ -165,7 +165,7 @@ if __name__ == "__main__":
 # Asking With Memory:
 
 # chat_history = []
-# question = 'How many stages does the planting design consist of?'
+# question = 'How many opportunities and threats does AI have?'
 # result, chat_history = ask_with_memory(vector_store, question, chat_history)
 # print(result['answer'])
 # print(chat_history)
@@ -174,3 +174,12 @@ if __name__ == "__main__":
 # result, chat_history = ask_with_memory(vector_store, question, chat_history)
 # print(result['answer'])
 # print(chat_history)
+#
+# question = 'Write in details'
+# result, chat_history = ask_with_memory(vector_store, question, chat_history)
+# print(result['answer'])
+# print(chat_history)
+
+
+# JB-Rockstar
+# gokhanbalik8@gmail.com
